@@ -2,11 +2,10 @@
 
   void setup() {
     size(400, 400);
+     //background(152, 245, 66);
   }
 
-  void setup() {
-    background(152, 245, 66);
-  }
+
   void draw() {
     background(0);
     fill(209, 136, 27);
@@ -40,7 +39,7 @@
 
     fill(255); //mouse coordinate finder
     text("("+mouseX+","+mouseY+")", mouseX, mouseY);
-  }
+  
 }
 
 
